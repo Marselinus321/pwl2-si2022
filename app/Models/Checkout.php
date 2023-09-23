@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Models;
+namespace app\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Checkout extends Models
+class Checkout extends Model
 {
     use HasFactory, SoftDeletes;
 

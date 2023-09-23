@@ -11,9 +11,9 @@ class CreateCheckoutsTable extends Migration
      * 
      * @return void
      */
-    public function up(): void
+    public function up()
     {
-        Schema::create('camp_benefits', function (Blueprint $table) {
+        Schema::create('checkouts', function (Blueprint $table) {
             $table->id();
             $table->foreignid('user_id')->constrained();
             $table->foreignid('camp_id')->constrained();

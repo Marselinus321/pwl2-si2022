@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models;
+namespace app\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Campbenefit extends Models
+class CampBenefit extends Model
 {
     use HasFactory;
 
